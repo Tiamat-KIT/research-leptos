@@ -1,4 +1,3 @@
-use crate::components::counter_btn::Button;
 use leptos::prelude::*;
 
 /// Default Home Page
@@ -43,11 +42,6 @@ pub fn Home() -> impl IntoView {
                 </picture>
 
                 <h1>"Welcome to Leptos"</h1>
-
-                <div class="buttons">
-                    <Button />
-                    <Button increment=5 />
-                </div>
 
             </div>
             <canvas />

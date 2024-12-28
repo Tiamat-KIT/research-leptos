@@ -1,0 +1,32 @@
+{
+    "name": "leptos-webgpu",
+    "dockerComposeFile":"compose.yaml",
+    "service": "yew_webgpu",
+    "workspaceFolder": "/workspace",
+    "remoteUser": "utakata",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ktock.container-wasm",
+                "dtsvet.vscode-wasm",
+                "VectorGameExperts.rust-target-toggle",
+                "rust-lang.rust-analyzer",
+                "bungcip.better-toml",
+                "serayuzgur.crates",
+                "1YiB.rust-bundle",
+                "Zerotaskx.rust-extension-pack",
+                "jinxdash.prettier-rust",
+                "formulahendry.code-runner",
+                "kevinkyang.auto-comment-blocks",
+                "PolyMeilex.wgsl",
+                "dustypomerleau.rust-syntax",
+                "TechTheAwesome.rust-yew",
+                "MarioRocha.yew-framework-snippets"
+            ]
+        }
+    },
+    "containerEnv": {
+        "HTTP_PROXY":"http://wwwproxy.kanazawa-it.ac.jp:8080", 
+        "HTTPS_PROXY": "http://wwwproxy.kanazawa-it.ac.jp:8080"
+    }
+}
