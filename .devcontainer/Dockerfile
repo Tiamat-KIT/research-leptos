@@ -17,6 +17,7 @@ RUN apt update -y \
 
 RUN curl https://rustwasm.github.io/wasm-pack/installer/init.sh -sSf | sh \
     && cargo install --locked trunk \
+    && cargo install --locked wasm-bindgen-cli \
     && rustup target add wasm32-unknown-unknown \
     && rustup toolchain install nightly 
     
