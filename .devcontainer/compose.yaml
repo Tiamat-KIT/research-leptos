@@ -1,10 +1,8 @@
 services:
-  yew_webgpu:
+  leptos_webgpu:
     build: 
       context: .
       dockerfile: Dockerfile
-    image: utakata_research_image
-    container_name: utakata_research_container
     volumes:
       - ../:/workspace
     working_dir: /workspace
