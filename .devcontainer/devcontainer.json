@@ -1,7 +1,7 @@
 {
     "name": "leptos-webgpu",
     "dockerComposeFile":"compose.yaml",
-    "service": "yew_webgpu",
+    "service": "leptos_webgpu",
     "workspaceFolder": "/workspace",
     "remoteUser": "utakata",
     "customizations": {
